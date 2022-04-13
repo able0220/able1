@@ -5,6 +5,10 @@
 	</head>
 	<body>
 		<div>인공지능 교육 테스트 수정111</div>
+		<img src = "able1/image/KakaoTalk_20220411_103435475.jpg">
+		
+		<img src = "https://postfiles.pstatic.net/MjAyMjA0MTNfMTk2/MDAxNjQ5ODI2MzIwMzc1.X-NZlxeSSZsZSyXK2ksHJeilbhZJoKNHHab6IUYDisQg.Tb8bhimuY7i2-kTGKfu4yOTHcNF1gkXX6wIvYx2e5BUg.JPEG.gaonnuri0902/KakaoTalk_20220411_103435475.jpg?type=w580">
+		
 		<button type="button" onclick="init()">Start</button>
 		<div id="webcam-container"></div>
 		<div id="label-container"></div>
@@ -34,7 +38,7 @@
 
 				// Convenience function to setup a webcam
 				const flip = true; // whether to flip the webcam
-				webcam = new tmImage.Webcam(200, 200, flip); // width, height, flip
+				webcam = new tmImage.Webcam(600, 600, flip); // width, height, flip
 				await webcam.setup(); // request access to the webcam
 				await webcam.play();
 				window.requestAnimationFrame(loop);
